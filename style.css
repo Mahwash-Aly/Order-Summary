@@ -1,0 +1,135 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0px;
+  text-align: center;
+  font-family: "Red Hat display";
+  background-size: contain;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  margin: 7% 40%;
+
+}
+
+.hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 400px;
+}
+
+.text {
+  width: 400px;
+}
+.text h1{
+  font-weight: 700;
+}
+.text p {
+  padding: 0px 40px;
+  color: hsl(224, 23%, 55%);
+}
+
+.planning {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  border-radius: 10px;
+  margin: 10px 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.music {
+  padding: 10px;
+}
+
+.Annual-plan {
+  text-align: left;
+}
+
+.Annual-plan h3 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-right: 80px;
+  font-size: 16px;
+  font-weight: 700;
+  :
+}
+
+.Annual-plan p {
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 0px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.change {
+  padding: 15px 10px 25px 10px;
+}
+
+.btn1 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: hsl(245, 75%, 52%);
+  border: solid #0000e3 1px;
+  text-decoration: none;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px 30px;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 30px rgba(0, 0, 255, .4);
+  -moz-box-shadow: 0px 2px 30px rgba(0, 0, 255, .4);
+  box-shadow: 0px 2px 30px rgba(0, 0, 255, .4);
+  border-color: rgba(0, 0, 255, 0.4)
+}
+
+.btn1:hover {
+  background: rgba(0, 0, 255, 0.4);
+  text-decoration: none;
+}
+
+.btn2 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #0a010d;
+  font-size: 20px;
+  background: #ffffff;
+  border: solid #fcffff 2px;
+  text-decoration: none;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px 30px;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
